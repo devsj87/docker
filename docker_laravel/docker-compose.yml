@@ -1,0 +1,11 @@
+version: "3.9"
+services:
+ laravel:
+  build:
+    context: ./docker/php
+    dockerfile: Dockerfile.dev
+ nginx:
+  build:
+   context: ./docker/nginx
+   dockerfile: Dockerfile.dev
+ 
