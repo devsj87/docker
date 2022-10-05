@@ -1,0 +1,12 @@
+.svn
+.vscode
+.idea
+.vscode
+.git
+.cache
+.gitignore
+.dockerignore
+
+*.yml
+
+
